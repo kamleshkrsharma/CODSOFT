@@ -1,0 +1,122 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:gold
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background-color: greenyellow;
+    padding: 20px;
+    box-shadow: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+}
+
+nav ul li a:hover {
+    color: red;
+    font-size: 22px;
+}
+
+nav ul .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: blue;
+}
+.hero {
+    display: flex;
+}
+.hero img {
+    height: 600px;
+}
+
+.bio {
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: blue;
+}
+
+p {
+    width: 500px;
+    color: black;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.bio h1 {
+    font-size: 100px;
+}
+
+.bio h1:hover {
+    color: chocolate;
+    transition: 0.2 ease;
+}
+.buttons {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 40px;
+    color: black;
+    background-color: aqua;
+    text-decoration: none;
+}
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.icon {
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.icon a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.icon a:hover {
+    color: rgb(0, 19, 128);
+    transform: scale(2);
+    border: .1px dotted green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
