@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+background-color: darkcyan;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+nav {
+  display: flex;
+  background-color: aqua;
+  margin: 18px;
+  border-radius: 25px;
+  padding: 6px;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 0 20px darkblue; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  align-items: center;
+}
+
+nav  a:hover {
+  color: rgb(255, 0, 0);
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+main {
+  background-color: aqua;
+  align-items: center;
+  margin: 18px;
+  border-radius: 25px;
+  margin-top: 30px;
+  display: flex;
+  height: 580px;
+  box-shadow: 0 0 20px darkblue; 
+}
+
+.details {
+  width: 44%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.details p {
+  margin-top: 15px;
+  font-size: 23.3px;
+  margin-left: 100px;
+}
+
+.details h1 {
+  margin-top: 10px;
+  font-size: 61px;
+  margin-left: 100px;
+}
+
+button {
+  padding: 10px 30px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(84, 84, 238);
+  margin-left: 180px;
+  margin-top: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: blue;
+  transition: 0.4s ease-in-out;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+.image img {
+  height: 495px;
+  margin-left: 50px;
+  border-radius: 25px;
+  box-shadow: 0 0 40px darkblue; 
+}
+
+.skills {
+  background-color: aqua;
+  margin: 18px;
+  border-radius: 25px;
+  margin-top: 30px;
+  height: 580px;
+  box-shadow: 0 0 20px darkblue; 
+  display: flex;
+  align-items: center;
+
+}
+
+.html {
+  width: 360px;
+  box-shadow: 0 0 20px darkblue; 
+  border-radius: 25px;
+  margin: 35px;
+  height: 490px;
+  align-items: center;
+}
+
+
+.html h2 {
+  margin-left: 35%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.html p, .css p, .javascript p {
+  margin: 20px;
+}
+
+.html img {
+  height: 170px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.css {
+  width: 360px;
+  box-shadow: 0 0 20px darkblue;
+  border-radius: 25px;
+  margin: 35px; 
+  height: 490px;
+  align-items: center;
+}
+
+.css h2 {
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.css img {
+  height: 170px;
+  width: 170px;
+  margin-left: 95px;
+}
+
+.javascript {
+  width: 360px;
+  box-shadow: 0 0 20px darkblue;
+  border-radius: 25px;
+  margin: 35px; 
+  height: 490px;
+  align-items: center;
+}
+
+.javascript h2 {
+  margin-left: 30%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.javascript img {
+  height: 180px;
+  width: 180px;
+  margin-left: 90px;
+}
+
+.projects {
+  background-color: aqua;
+  height: 795px;
+  justify-content: center;
+  margin: 18px;
+  border-radius: 25px;
+  margin-top: 40px;
+  box-shadow: 0 0 20px darkblue; 
+}
+
+.project {
+  margin-top: 50px;
+  position: absolute;
+}
+
+h4 {
+  font-size: 35px;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+
+.line1{
+  display: flex;
+  width: 96%;
+  margin: 22px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px darkblue; 
+}
+
+p {
+  margin-left: 130px;
+  margin-top: 2px;
+}
+
+.landing1 img, .landing2 img, .portfolio1 img, .portfolio2 img, .amazon img, .flipkart img, .calculator img, .temp img, .spotify img{
+  width: 80%;
+  border-radius: 25px;
+  margin-left: 28px;
+
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 0 80px darkblue;
+}
+.line2{
+  display: flex;
+  width: 96%;
+  margin: 22px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px darkblue; 
+}
+
+.line3{
+  display: flex;
+  width: 96%;
+  margin: 22px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px darkblue; 
+
+}
+
+.contacts {
+  background-color: aqua;
+  margin: 18px;
+  margin-left: 200px;
+  border-radius: 25px;
+  margin-top: 50px;
+  height: 580px;
+  width: 1000px;
+  align-items: center;
+  box-shadow: 0 0 20px darkblue;
+}
+
+.contact {
+  background-color: aqua;
+  margin: 25px;
+  margin-right: 50px;
+  border-radius: 25px;
+  margin-top: 70px;
+  width: 700px;
+  height: 460px;
+  margin-left: 150px;
+  box-shadow: 0 0 20px darkblue;
+  position: absolute;
+}
+.contact p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 112px;
+  margin-right: 80px;
+  font-size: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 23.3px;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+.contact h2 {
+  margin-left: 225px;
+  margin-top: 30px;
+  font-size: 40px;
+  bottom: 0;
+}
+
+.copyright {
+  background-color: aqua;
+  margin: 18px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px darkblue;
+}
+
+.copyright p {
+margin-left: 43%;
+}
