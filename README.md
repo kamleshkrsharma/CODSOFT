@@ -6,5 +6,7 @@ Batch - JAN BATCH P27
 10 February 2024 - Last date
 
 Task 1 : LANDING PAGE
+
 Task 2 : PORTFOLIO
+
 Task 3 : CALCULATOR
